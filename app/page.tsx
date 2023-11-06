@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Todo from "./components/Todo";
 
 export default function Home() {
   return (
@@ -30,9 +31,9 @@ export default function Home() {
         </div>
       </form>
       <ul className="divide-y divide-gray-200 px-4">
-        {/* {todos?.map((todo: TodoType) => (
+        {[1, 2, 3]?.map((todo: any) => (
           <Todo key={todo.id} todo={todo} />
-        ))} */}
+        ))}
       </ul>
     </div>
   );

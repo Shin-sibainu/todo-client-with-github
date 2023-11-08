@@ -5,7 +5,7 @@ async function fetcher(key: string) {
 }
 
 export const useTodos = () => {
-  const API_URL = "";
+  const API_URL = "http:localhost:8080";
 
   const { data, isLoading, error, mutate } = useSWR(
     `${API_URL}/allTodos`,

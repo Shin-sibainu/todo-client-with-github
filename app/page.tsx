@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Todo from "./components/Todo";
 import { useRef } from "react";
-//https://backlog.com/ja/git-tutorial/stepup/05/
 
 export default function Home() {
   const inputRef = useRef<HTMLInputElement | null>(null);

@@ -5,7 +5,7 @@ import { useRef } from "react";
 
 export default function Home() {
   const inputRef = useRef<HTMLInputElement | null>(null);
-  const API_URL = "http://localhost:8080";
+  const API_URL = "http://localhost:8000";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
